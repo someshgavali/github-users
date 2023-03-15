@@ -1,0 +1,31 @@
+.card{
+    height: 25vh; 
+    width: 27vw; 
+    background-color: white;
+    border-radius: 10px;
+   margin-bottom: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* margin: 1rem; */
+}
+
+.image{
+    border-radius: 50%;
+    
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: rgb(9, 9, 9);
+}
+.btn:hover{
+    background-color: yellow;
+    color: grey;
+}
